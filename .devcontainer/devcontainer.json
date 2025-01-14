@@ -6,5 +6,10 @@
 
   "remoteUser": "codespace",
   "overrideCommand": false,
- "postCreateCommand": "echo '# Writing code upon codespace creation!'  >> codespace.md"
+ "postCreateCommand": "echo '# Writing code upon codespace creation!'  >> codespace.md",
+  "dotfiles": {
+    "repository": "https://github.com/celinekuttler/dotfiles",
+    "targetPath": "~/",
+    "installCommand": "~/.dotfiles/install.sh"
+  }
 }
